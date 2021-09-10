@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 610px;
+  background-color: rgb(223, 231, 238);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.main {
+  width: 380px;
+  height: 580px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 14px 30px 1px rgb(179, 177, 177);
+}
+
+.description {
+  margin: 0 auto;
+  width: 290px;
+  text-align: center;
+  font-weight: 500;
+  color: gray;
+}
+
+.illustration {
+  width: 380px;
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.annual-plan-and-change {
+  display: flex;
+  justify-content: space-evenly;
+  width: 290px;
+  height: 65px;
+  align-items: center;
+  background-color: rgb(247, 246, 248);
+  border-radius: 5px;
+}
+
+.annual-plan {
+  font-weight: 900;
+}
+
+.money {
+  color: gray;
+}
+
+.empty {
+  width: 85px;
+  height: 10px;
+  /* border: 2px solid black; */
+}
+
+.change {
+  color: gray;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.change:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.proceed-to-payment {
+  width: 290px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 13px;
+  box-shadow: 0px 14px 30px 1px rgb(179, 177, 177);
+}
+
+.proceed-to-payment:hover {
+  color: blue;
+  background-color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cancel {
+  color: gray;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.cancel:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
