@@ -7,131 +7,165 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(223, 231, 238);
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  background-size: auto;
-  font-family: "Red Hat Display", sans-serif;
-  padding: 16%;
+  background-size: 100% 100%;
+  margin: 2% auto;
+
 }
 
-h2 {
+/* Contanier  */
+.container {
+  width: 375px;
+  min-height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* Main Heading */
+.heading {
+  color: hsl(223, 47%, 23%);
   font-weight: 900;
   font-size: 110%;
-  margin: 8%;
+  margin-top: 52%;
 }
 
+/* Paragraph */
 p {
-  font-size: 70%;
+  font-size: 16px;
+  font-weight: 500;
 }
 
+/* Main Div  */
 .main {
-  width: 30%;
+  width: 90%;
   background-color: white;
+  background-image: url('/images/illustration-hero.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  border-radius: 5%;
-  box-shadow: 0px 14px 30px 1px rgb(179, 177, 177);
-  overflow: hidden;
+  border-radius: 0.9em;
 }
 
+/* Heading Description */
 .description {
-  margin: 0 auto;
+  margin: 1em;
   width: 80%;
   text-align: center;
   font-weight: 500;
-  color: gray;
-  margin: 0 8% 8%;
-  font-size: 65%;
+  color: hsl(224, 23%, 55%);
 }
 
-.illustration {
-  width: 100%;
-  /* height: 180px; */
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
-}
-
-.annual-plan-and-change {
+/* Annual Plan and Change */
+.premium-plan {
   display: flex;
-  justify-content: space-evenly;
-  width: 80%;
-  /* height: 65px; */
+  justify-content: space-around;
+  width: 80%; 
+  height: 65px;
   align-items: center;
   background-color: rgb(247, 246, 248);
   border-radius: 5px;
-  margin: 0 8% 8%;
+  margin: 4% 0;
+}
+
+.premium-plan .music-annual-plan-money-and-change {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 2%;
 }
 
-.annual-plan {
-  font-weight: 900;
-  font-size: 60%;
-  margin-left: 5%;
+.music-annual-plan-money-and-change .music-annual-plan-and-money{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
 }
 
-.money {
-  color: gray;
-  margin-left: 5%;
+.music-annual-plan-and-money .image {
+  width: 3rem;
+  background-image: url('/images/icon-music.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.empty {
-  width: 15%;
+.music-annual-plan-and-money .annual-plan-and-money {
+  padding: 2%;
 }
 
-.change {
-  color: gray;
-  font-weight: bolder;
-  font-size: 60%;
+.annual-plan-and-money .annual-plan {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+} 
+
+.annual-plan-and-money .money {
+  color: hsl(224, 23%, 55%);
 }
 
-.change:hover {
-  color: blue;
-  text-decoration: underline;
-  cursor: pointer;
+.music-annual-plan-money-and-change .change a {
+  font-weight: 700;
+  
 }
+
+.music-annual-plan-money-and-change .change a:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+/* Proceed to Payment */
 .proceed-to-payment {
   width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   background-color: hsl(245, 75%, 52%);
   border-radius: 10px;
-  color: whitesmoke;
-  font-weight: bolder;
-  font-size: 65%;
   padding: 3% 3% 4%;
-  margin: 0 8% 8%;
-  box-shadow: 0px 5px 20px 1px rgb(179, 177, 177);
+  margin: 3%;
+  box-shadow: 0px 5px 20px 1px hsl(224, 23%, 55%);
+}
+
+.proceed-to-payment p {
+  color: hsl(225, 100%, 98%);
+  font-weight: 900;
 }
 
 .proceed-to-payment:hover {
-  color: blue;
-  background-color: white;
-  text-decoration: underline;
+  background-color:  hsl(224, 23%, 55%);
+  text-decoration: none;
   cursor: pointer;
 }
 
+/* Cancel Order */
 .cancel {
-  color: gray;
-  font-size: 65%;
-  font-weight: bolder;
-  margin: 0 8% 8%;
+  text-align: center;
+  width: 80%;
+  margin: 3%;
 }
 
-.cancel:hover {
-  color: blue;
-  text-decoration: underline;
+.cancel p {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cancel p:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
   cursor: pointer;
 }
 
+/* Attribution */
 .attribution {
-  font-size: 60%;
-  text-align: center;
-  margin-bottom: 2%;
+   width: 80%;
+   margin: 3%;
+   font-size: 60%;
+   text-align: center;
+   margin: 2%;
 }
