@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(223, 231, 238);
-  background-image: url('pattern-background-mobile.svg');
+  background-image: url('/images/pattern-background-mobile.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -44,7 +44,7 @@ p {
 .main {
   width: 90%;
   background-color: white;
-  background-image: url('illustration-hero.svg');
+  background-image: url('/images/illustration-hero.svg');
   background-repeat: no-repeat;
   background-size: 100% 30%;
   display: flex;
