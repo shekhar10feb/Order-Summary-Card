@@ -14,7 +14,7 @@ body {
   background-image: url('./images/pattern-background-mobile.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin: 1% auto;
+  margin-top: 2%;
 }
 
 /* Contanier  */
