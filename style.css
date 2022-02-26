@@ -16,8 +16,9 @@ body {
 
 /* Contanier  */
 .container {
-  width: 375px;
-  min-height: 100vmin;
+  width: 90vw;
+  min-width: 23.43775em;
+  min-height: 90vmin;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,15 +27,16 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   font-family: "Red Hat Display", sans-serif;
-  padding: 1em;
+  /* padding: 1em; */
+  padding: 1vmax;
 }
 
 /* Main Heading */
 .heading {
   color: hsl(223, 47%, 23%);
   font-weight: 900;
-  font-size: 110%;
-  margin-top: 52%;
+  font-size: 2vmax;
+  margin-top: 16vmax;
 }
 
 /* Paragraph */
@@ -45,7 +47,7 @@ p {
 
 /* Main Div  */
 .main {
-  width: 90%;
+  width: 28vmax;
   background-color: white;
   background-image: url('./images/illustration-hero.svg');
   background-repeat: no-repeat;
@@ -178,7 +180,7 @@ p {
 }
 
 /* Desktop viewport of min-width 1440px screen size  */
-@media all and (min-width: 1440px) {
+/* @media all and (min-width: 1440px) {
   .container {
     width: 90%; 
     background-color: rgb(223, 231, 238);
@@ -191,4 +193,4 @@ p {
   .main {
     width: 30%;
   }
-} 
+}  */
