@@ -10,11 +10,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(223, 231, 238);
-  background-image: url('./images/pattern-background-mobile.svg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin-top: 2%;
 }
 
 /* Contanier  */
@@ -24,8 +19,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2% auto;
   font-family: "Red Hat Display", sans-serif;
+  padding: 1em;
 }
 
 /* Main Heading */
@@ -175,3 +170,19 @@ p {
    text-align: center;
    margin: 2%;
 }
+
+/* Desktop viewport of min 1440px screen size  */
+@media all and (min-width: 1440px) {
+  .container {
+    width: 90%; 
+    background-color: rgb(223, 231, 238);
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    margin: 0 auto;
+}
+
+  .main {
+    width: 30%;
+  }
+} 
