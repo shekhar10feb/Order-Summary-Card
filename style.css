@@ -10,8 +10,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  margin: 1% auto;
 }
 
 /* Contanier  */
@@ -21,10 +19,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(223, 231, 238);
-  background-image: url('./images/pattern-background-mobile.svg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   font-family: "Red Hat Display", sans-serif;
   padding: 1em;
 }
