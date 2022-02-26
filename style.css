@@ -177,7 +177,7 @@ p {
    margin: 2%;
 }
 
-/* Desktop viewport of min 1440px screen size  */
+/* Desktop viewport of min-width 1440px screen size  */
 @media all and (min-width: 1440px) {
   .container {
     width: 90%; 
