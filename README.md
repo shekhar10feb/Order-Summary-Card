@@ -92,90 +92,86 @@ I learned many new concepts and use it in this project like:
 
    #### 1) CSS Variables 
 
-       These are some particular values, which we can reuse throughout this CSS file and the 
-       benefit is that when the file is so long and if you want to change some colors then, you have to go 
-       all over the file, check and change. But using CSS Variables, we can change the color in the root 
-       and the specific color would change in that section or div or etc.
+   These are some particular values, which we can reuse throughout this CSS file and the 
+   benefit is that when the file is so long and if you want to change some colors then, you have to go 
+   all over the file, check and change. But using CSS Variables, we can change the color in the root 
+   and the specific color would change in that section or div or etc.
   
-   ```CSS
-   :root {
-     --body-bg-color: white:
-   }
+       CSS
+       :root {
+         --body-bg-color: white:
+       }
 
-   body {
-     background-color: var(--body-bg-color);
-   }
-   ```
+       body {
+         background-color: var(--body-bg-color);
+       }
+   
  #### 2) Background-repeat 
 
-       A background-repeat sets how the background image repeated. It can be repeated 
-       along horizontal(x-axis), vertically(y-axis) or do not repeat according to the value, we provide.
+   A background-repeat sets how the background image repeated. It can be repeated 
+   along horizontal(x-axis), vertically(y-axis) or do not repeat according to the value, we provide.
    
-   ```CSS
-   .main {
-     background-image: url('./images/illustration-hero.svg');
-     background-repeat: no-repeat;
-   }
-   ```
+       CSS
+       .main {
+         background-image: url('./images/illustration-hero.svg');
+         background-repeat: no-repeat;
+       }
+   
  #### 3) Background-size
 
-      This property sets the element's background image. The image can be cover the whole space, spread 
-      upto a given percentage area.
+   This property sets the element's background image. The image can be cover the whole space, spread 
+   upto a given percentage area.
 
-    ```CSS
-    .image {
-      background-image: url('./images/icon-music.svg');
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-   }
-   ```
+       CSS
+        .image {
+          background-image: url('./images/icon-music.svg');
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+    
  #### 4) Use of rem and em 
 
-     These are relative units, which changes according to the screen resolution, that makes the program 
-     fits according to that resolution. 
+  These are relative units, which changes according to the screen resolution, that makes the program 
+  fits according to that resolution. 
      
-     As rem is based upon the font-size value of the root element, which is the <html> element. And if 
-     the <html> element doesn’t have a specified font-size, the browser default value of 16px is used.
+  As rem is based upon the font-size value of the root element, which is the <html> element. And if 
+  the <html> element doesn’t have a specified font-size, the browser default value of 16px is used.
 
-    ````CSS
-     .html {
-       font-size: 30px;
-    }
+       CSS
+         .html {
+           font-size: 30px;
+         }
     
-    .parent {
-        font-size: 2rem;
-        /* 30px * 2 = 60px */
-    }
-    ```
+         .parent {
+           font-size: 2rem;
+            /* 30px * 2 = 60px */
+         }
 
-    ```html
-    <div class="parent">
-        This is parent
-    </div>
-    ```
+         html
+          <div class="parent">
+            This is parent
+          </div>
 
      And em unit allows to set the font size of an element relative to the font size of its parent. 
      When the size of the parent element changes, the size of the child changes automatically.
 
-     ```CSS
-     .parent {
-        font-size: 20px;
-    }
+         CSS
+         .parent {
+            font-size: 20px;
+         }
   
-    .child {
-        margin: 1.5em;
-        /* 20px * 1.5 = 30px */
-    }
-    ```
+        .child {
+            margin: 1.5em;
+            /* 20px * 1.5 = 30px */
+        }
     
-    ```html
-    <div class="parent">
-        This is parent
-        <div class="child">
+        html
+         <div class="parent">
+            This is parent
+         <div class="child">
             This is Child in em unit system
+         </div>
         </div>
-    </div>
-    ```
 
 
 ### Continued development
