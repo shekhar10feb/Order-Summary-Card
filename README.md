@@ -123,7 +123,7 @@ and the specific color would change in that section or div or etc.
       upto a given percentage area.
 
     ```CSS
-   .music-annual-plan-and-money .image {
+   .image {
      background-image: url('./images/icon-music.svg');
      background-repeat: no-repeat;
      background-size: 100% 100%;
