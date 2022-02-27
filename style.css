@@ -11,14 +11,13 @@ body {
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin: 1% auto;
+  margin: 1vmin auto;
 }
 
 /* Contanier  */
 .container {
   width: 90vw;
-  min-width: 23.43775em;
-  min-height: 90vmin;
+  min-height: 47vmax;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,16 +26,15 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   font-family: "Red Hat Display", sans-serif;
-  /* padding: 1em; */
-  padding: 1vmax;
+  padding: 1rem;
 }
 
 /* Main Heading */
 .heading {
   color: hsl(223, 47%, 23%);
   font-weight: 900;
-  font-size: 2vmax;
-  margin-top: 16vmax;
+  font-size: 2em;
+  margin-top: 13rem;
 }
 
 /* Paragraph */
@@ -47,7 +45,7 @@ p {
 
 /* Main Div  */
 .main {
-  width: 28vmax;
+  width: 30rem;
   background-color: white;
   background-image: url('./images/illustration-hero.svg');
   background-repeat: no-repeat;
@@ -71,11 +69,11 @@ p {
 /* Annual Plan and Change */
 .premium-plan {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 80%; 
-  height: 65px;
+  min-height: 90%;
   align-items: center;
-  background-color: rgb(247, 246, 248);
+  background-color: hsl(225, 100%, 98%);
   border-radius: 5px;
   margin: 4% 0;
 }
@@ -90,20 +88,26 @@ p {
 
 .music-annual-plan-money-and-change .music-annual-plan-and-money{
   width: 65%;
+  
   display: flex;
   justify-content: space-between;
-  padding: 3%;
 }
 
 .music-annual-plan-and-money .image {
-  width: 3rem;
+  width: 30%;
+  min-height: 100%;
   background-image: url('./images/icon-music.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .music-annual-plan-and-money .annual-plan-and-money {
-  padding: 2%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2% 3%;
 }
 
 .annual-plan-and-money .annual-plan {
@@ -116,7 +120,11 @@ p {
 }
 
 .music-annual-plan-money-and-change .change {
-  padding-right: 2%;
+  width: 27%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4.5% 1%;
 }
 
 .music-annual-plan-money-and-change .change a {
@@ -136,7 +144,7 @@ p {
   border-radius: 10px;
   padding: 3% 3% 4%;
   margin: 3%;
-  box-shadow: 0px 5px 20px 1px hsl(224, 23%, 55%);
+  box-shadow: 0px 0.06rem 0.5rem 0.06rem hsl(224, 23%, 55%);
 }
 
 .proceed-to-payment p {
@@ -178,19 +186,3 @@ p {
    text-align: center;
    margin: 2%;
 }
-
-/* Desktop viewport of min-width 1440px screen size  */
-/* @media all and (min-width: 1440px) {
-  .container {
-    width: 90%; 
-    background-color: rgb(223, 231, 238);
-    background-image: url('./images/pattern-background-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%; 
-    margin: 0 auto;
-}
-
-  .main {
-    width: 30%;
-  }
-}  */
