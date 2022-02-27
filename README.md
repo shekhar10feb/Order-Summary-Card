@@ -41,29 +41,29 @@ Users should be able to:
 My process is in the index.html file firstly, I made a div of class ***container** and then, 
 added a div of **main** class. Inside main class, I added,
         
-        - Header as main heading, h1 of class name heading
-        - Paragraph of class name description 
-        - Div of class name premium-plan
-        - Div of class name proceed-to-payment
-        - Div of class name cancel
-        - Div of class name attribution 
+   - Header as main heading, h1 of class name heading
+   - Paragraph of class name description 
+   - Div of class name premium-plan
+   - Div of class name proceed-to-payment
+   - Div of class name cancel
+   - Div of class name attribution 
 
 Inside **premium-plan** class, I added a div of class name music-annual-plan-money-and-change.
 
 Inside **music-annual-plan-and-money** class, I added two classes, namely,
        
-       - music-annual-plan-and-money class, and
-       - change class
+   - music-annual-plan-and-money class, and
+   - change class
 
 Inside **music-annual-and-money** class, I added two classes, namely,
 
-       - image
-       - annual-plan-and-money
+   - image
+   - annual-plan-and-money
 
 I added two paragraphes inside **annual-plan-and-money** namely,
        
-       - annual-plan
-       - money 
+   - annual-plan
+   - money 
 
 Then, in the **change** class, I added an anchor tag inside a paragraph.
 
@@ -73,22 +73,24 @@ In the **cancel** class, I added a paragraph.
 
 And lastly, in the **attribution** class, I added 'Challenge by' and 'Coded by' with anchor tags. 
 
+And made CSS of the respective classes, paragraph, etc. and give different CSS properties.
+
 ### Built with
 
-       - Semantic HTML5 markup
-       - CSS custom properties
-       - Flexbox
-       - Mobile-first workflow
+   - Semantic HTML5 markup
+   - CSS custom properties
+   - Flexbox
+   - Mobile-first workflow
 
 
 ### What I learned
 
 I learned many new concepts and use it in this project like: 
 
-       - CSS Variables
-       - Background-repeat 
-       - Background-size
-       - Uses of rem and em
+   - CSS Variables
+   - Background-repeat 
+   - Background-size
+   - Uses of rem and em
 
    #### 1) CSS Variables 
 
@@ -178,24 +180,27 @@ I learned many new concepts and use it in this project like:
 
 ### Continued development
 
-     I want to focus on the responsiveness of the website and make use of SCSS concepts in this project 
+ I want to focus on the responsiveness of the website and make use of SCSS concepts in this project 
      in future.
 
 
 ### Useful resources
 
-     - [Background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) - This concept 
+[Background-size](https://www.developer.mozilla.org/en-US/docs/Web/CSS/background-size) - This concept 
      really helped to fit in the image in a div with value of width and height are 100%, with makes it to 
      cover the full div. I really like this and use it in future projects, whenever required. 
-     - [Difference between em and rem units in CSS](https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/) - This 
+  
+[Difference between em and rem units in CSS](https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/) - This 
      is an amazing article which helped me finally understand the difference between rem and em. I'd recommend it to anyone still learning this concept.
-     - [CSS Units](https://www.w3schools.com/cssref/css_units.asp) - This is a very good article on CSS Units, which helped me 
+  
+[CSS Units](https://www.w3schools.com/cssref/css_units.asp) - This is a very good article on CSS Units, which helped me 
      to understand the various units of CSS.
  
 
 ## Author
 
-     - Frontend Mentor - [@shekhar10feb](https://www.frontendmentor.io/profile/shekhar10feb)
-     - Twitter - [@MontygSharma](https://twitter.com/MontygSharma)
+ Frontend Mentor - [@shekhar10feb](https://www.frontendmentor.io/profile/shekhar10feb)
+  
+ Twitter - [@MontygSharma](https://twitter.com/MontygSharma)
 
 
