@@ -1,3 +1,19 @@
+:root {
+  --body-bg-color: white;
+  --container-bg-color: rgb(223, 231, 238);
+  --heading-color: hsl(223, 47%, 23%);
+  --main-bg-color: white;
+  --premium-plan-bg-color: hsl(225, 100%, 98%);
+  --annual-plan-text-color: hsl(223, 47%, 23%);
+  --money-text-color: hsl(224, 23%, 55%);
+  --change-anchor-hover: hsl(224, 23%, 55%);
+  --payment-to-procced-bg-color: hsl(245, 75%, 52%);
+  --payment-to-proceed-paragraph-text-color: hsl(225, 100%, 98%);
+  --payment-to-proceed-hover-bg-color: hsl(224, 23%, 55%);
+  --div-cancel-paragraph-text-color: hsl(224, 23%, 55%);
+  --div-cancel-paragraph-hover-text-color: hsl(223, 47%, 23%);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
 
 * {
@@ -10,7 +26,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: var(--body-bg-color);
   margin: 1vmin auto;
 }
 
@@ -21,7 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(223, 231, 238);
+  background-color: var(--container-bg-color);
   background-image: url('./images/pattern-background-mobile.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -31,7 +47,7 @@ body {
 
 /* Main Heading */
 .heading {
-  color: hsl(223, 47%, 23%);
+  color: var(--heading-color);
   font-weight: 900;
   font-size: 2em;
   margin-top: 13rem;
@@ -46,7 +62,7 @@ p {
 /* Main Div  */
 .main {
   width: 30rem;
-  background-color: white;
+  background-color: var(--main-bg-color);
   background-image: url('./images/illustration-hero.svg');
   background-repeat: no-repeat;
   background-size: 100% 30%;
@@ -73,7 +89,7 @@ p {
   width: 80%; 
   min-height: 90%;
   align-items: center;
-  background-color: hsl(225, 100%, 98%);
+  background-color: var(--premium-plan-bg-color);
   border-radius: 5px;
   margin: 4% 0;
 }
@@ -88,7 +104,6 @@ p {
 
 .music-annual-plan-money-and-change .music-annual-plan-and-money{
   width: 65%;
-  
   display: flex;
   justify-content: space-between;
 }
@@ -112,11 +127,11 @@ p {
 
 .annual-plan-and-money .annual-plan {
   font-weight: 700;
-  color: hsl(223, 47%, 23%);
+  color: var(--annual-plan-text-color);
 } 
 
 .annual-plan-and-money .money {
-  color: hsl(224, 23%, 55%);
+  color: var(--money-text-color);
 }
 
 .music-annual-plan-money-and-change .change {
@@ -133,14 +148,14 @@ p {
 
 .music-annual-plan-money-and-change .change a:hover {
   text-decoration: none;
-  color: hsl(224, 23%, 55%);
+  color: var(--change-anchor-hover);
 }
 
 /* Proceed to Payment */
 .proceed-to-payment {
   width: 80%;
   text-align: center;
-  background-color: hsl(245, 75%, 52%);
+  background-color: var(--payment-to-procced-bg-color);
   border-radius: 10px;
   padding: 3% 3% 4%;
   margin: 3%;
@@ -148,12 +163,12 @@ p {
 }
 
 .proceed-to-payment p {
-  color: hsl(225, 100%, 98%);
+  color: var(--payment-to-proceed-paragraph-text-color);
   font-weight: 900;
 }
 
 .proceed-to-payment:hover {
-  background-color:  hsl(224, 23%, 55%);
+  background-color:  var(--payment-to-proceed-hover-bg-color);
   text-decoration: none;
   cursor: pointer;
 }
@@ -167,13 +182,13 @@ p {
 
 .cancel p {
   text-align: center;
-  color: hsl(224, 23%, 55%);
+  color: var(--div-cancel-paragraph-text-color);
   font-weight: 700;
   text-decoration: none;
 }
 
 .cancel p:hover {
-  color: hsl(223, 47%, 23%);
+  color: var(--div-cancel-paragraph-hover-text-color);
   text-decoration: none;
   cursor: pointer;
 }
