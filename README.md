@@ -1,6 +1,7 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). 
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -37,7 +38,8 @@ Users should be able to:
 
 ## My process
 
-My process is in the index.html file firstly, I made a div of class ***container** and then, added a div of **main** class. Inside main class, I added,
+My process is in the index.html file firstly, I made a div of class ***container** and then, 
+added a div of **main** class. Inside main class, I added,
         
         - Header as main heading, h1 of class name heading
         - Paragraph of class name description 
@@ -90,7 +92,10 @@ I learned many new concepts and use it in this project like:
 
    #### 1) CSS Variables 
 
-       These are some particular values, which we can reuse throughout this CSS file and the benefit is that when the file is so long and if you want to change some colors then, you have to go all over the file, check and change. But using CSS Variables, we can change the color in the root and the specific color would change in that section or div or etc.
+       These are some particular values, which we can reuse throughout this CSS file and the 
+benefit is that when the file is so long and if you want to change some colors then, you have to go 
+all over the file, check and change. But using CSS Variables, we can change the color in the root 
+and the specific color would change in that section or div or etc.
   
    ```CSS
    :root {
@@ -103,7 +108,8 @@ I learned many new concepts and use it in this project like:
    ```
  #### 2) Background-repeat 
 
-       A background-repeat sets how the background image repeated. It can be repeated along horizontal(x-axis), vertically(y-axis) or do not repeat according to the value, we provide.
+       A background-repeat sets how the background image repeated. It can be repeated 
+       along horizontal(x-axis), vertically(y-axis) or do not repeat according to the value, we provide.
    
    ```CSS
    .main {
@@ -113,7 +119,8 @@ I learned many new concepts and use it in this project like:
    ```
  #### 3) Background-size
 
-      This property sets the element's background image. The image can be cover the whole space, spread upto a given percentage area.
+      This property sets the element's background image. The image can be cover the whole space, spread 
+      upto a given percentage area.
 
     ```CSS
    .music-annual-plan-and-money .image {
@@ -124,9 +131,11 @@ I learned many new concepts and use it in this project like:
    ```
  #### 4) Use of rem and em 
 
-     These are relative units, which changes according to the screen resolution, that makes the program fits according to that resolution. 
+     These are relative units, which changes according to the screen resolution, that makes the program 
+     fits according to that resolution. 
      
-     As rem is based upon the font-size value of the root element, which is the <html> element. And if the <html> element doesn’t have a specified font-size, the browser default value of 16px is used.
+     As rem is based upon the font-size value of the root element, which is the <html> element. And if 
+     the <html> element doesn’t have a specified font-size, the browser default value of 16px is used.
 
     ````CSS
      .html {
@@ -137,14 +146,16 @@ I learned many new concepts and use it in this project like:
         font-size: 2rem;
         /* 30px * 2 = 60px */
     }
+    ```
 
-    html
+    ```html
     <div class="parent">
         This is parent
     </div>
     ```
 
-     And em unit allows to set the font size of an element relative to the font size of its parent. When the size of the parent element changes, the size of the child changes automatically.
+     And em unit allows to set the font size of an element relative to the font size of its parent. 
+     When the size of the parent element changes, the size of the child changes automatically.
 
      ```CSS
      .parent {
@@ -155,8 +166,9 @@ I learned many new concepts and use it in this project like:
         margin: 1.5em;
         /* 20px * 1.5 = 30px */
     }
+    ```
     
-    html
+    ```html
     <div class="parent">
         This is parent
         <div class="child">
@@ -168,14 +180,19 @@ I learned many new concepts and use it in this project like:
 
 ### Continued development
 
-     I want to focus on the responsiveness of the website and make use of SCSS concepts in this project in future.
+     I want to focus on the responsiveness of the website and make use of SCSS concepts in this project 
+     in future.
 
 
 ### Useful resources
 
-     - [Background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) - This concept really helped to fit in the image in a div with value of width and height are 100%, with makes it to cover the full div. I really like this and use it in future projects, whenever required. 
-     - [Difference between em and rem units in CSS](https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/) - This is an amazing article which helped me finally understand the difference between rem and em. I'd recommend it to anyone still learning this concept.
-     - [CSS Units](https://www.w3schools.com/cssref/css_units.asp) - This is a very good article on CSS Units, which helped me to understand the various units of CSS.
+     - [Background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) - This concept 
+     really helped to fit in the image in a div with value of width and height are 100%, with makes it to 
+     cover the full div. I really like this and use it in future projects, whenever required. 
+     - [Difference between em and rem units in CSS](https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/) - This 
+     is an amazing article which helped me finally understand the difference between rem and em. I'd recommend it to anyone still learning this concept.
+     - [CSS Units](https://www.w3schools.com/cssref/css_units.asp) - This is a very good article on CSS Units, which helped me 
+     to understand the various units of CSS.
  
 
 ## Author
