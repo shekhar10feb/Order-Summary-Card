@@ -93,9 +93,9 @@ I learned many new concepts and use it in this project like:
    #### 1) CSS Variables 
 
        These are some particular values, which we can reuse throughout this CSS file and the 
-benefit is that when the file is so long and if you want to change some colors then, you have to go 
-all over the file, check and change. But using CSS Variables, we can change the color in the root 
-and the specific color would change in that section or div or etc.
+       benefit is that when the file is so long and if you want to change some colors then, you have to go 
+       all over the file, check and change. But using CSS Variables, we can change the color in the root 
+       and the specific color would change in that section or div or etc.
   
    ```CSS
    :root {
@@ -123,10 +123,10 @@ and the specific color would change in that section or div or etc.
       upto a given percentage area.
 
     ```CSS
-   .image {
-     background-image: url('./images/icon-music.svg');
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
+    .image {
+      background-image: url('./images/icon-music.svg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
    }
    ```
  #### 4) Use of rem and em 
