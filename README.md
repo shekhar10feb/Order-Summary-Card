@@ -137,7 +137,7 @@ I learned many new concepts and use it in this project like:
   As rem is based upon the font-size value of the root element, which is the <html> element. And if 
   the <html> element doesn’t have a specified font-size, the browser default value of 16px is used.
 
-       ```CSS
+        CSS
          .html {
            font-size: 30px;
          }
@@ -151,13 +151,13 @@ I learned many new concepts and use it in this project like:
           <div class="parent">
             This is parent
           </div>
-        ```
+        
  #### 4) b) Use of em 
   
  And em unit allows to set the font size of an element relative to the font size of its parent. 
  When the size of the parent element changes, the size of the child changes automatically.
 
-         ```CSS
+        CSS
          .parent {
             font-size: 20px;
          }
@@ -174,7 +174,7 @@ I learned many new concepts and use it in this project like:
             This is Child in em unit system
          </div>
         </div>
-      ```
+     
 
 ### Continued development
 
