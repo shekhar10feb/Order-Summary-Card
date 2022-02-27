@@ -33,7 +33,7 @@ body {
 /* Contanier  */
 .container {
   width: 90vw;
-  min-height: 47vmax;
+  min-height: 48vmax;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ p {
 
 /* Main Div  */
 .main {
-  width: 30rem;
+  width: 26rem;
   background-color: var(--main-bg-color);
   background-image: url('./images/illustration-hero.svg');
   background-repeat: no-repeat;
