@@ -14,12 +14,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-This is a responsive Order Summary Card. 
+This is a responsive Order Summary Card with iteractive elements.
 ### The challenge
 
 Users should be able to:
@@ -28,83 +26,161 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile](./Screenshot/mobile-resolution_375px.jpg)
+![Desktop](./Screenshot/Desktop-resolution_1440px.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Order-Summary-Card](https://github.com/shekhar10feb/Order-Summary-Card)
+- Live Site URL: [Order-Summary-Card](https://shekhar10feb.github.io/Order-Summary-Card/)
 
 ## My process
 
+My process is in the index.html file firstly, I made a div of class ***container** and then, added a div of **main** class. Inside main class, I added,
+        
+        - Header as main heading, h1 of class name heading
+        - Paragraph of class name description 
+        - Div of class name premium-plan
+        - Div of class name proceed-to-payment
+        - Div of class name cancel
+        - Div of class name attribution 
+
+Inside **premium-plan** class, I added a div of class name music-annual-plan-money-and-change.
+
+Inside **music-annual-plan-and-money** class, I added two classes, namely,
+       
+       - music-annual-plan-and-money class, and
+       - change class
+
+Inside **music-annual-and-money** class, I added two classes, namely,
+
+       - image
+       - annual-plan-and-money
+
+I added two paragraphes inside **annual-plan-and-money** namely,
+       
+       - annual-plan
+       - money 
+
+Then, in the **change** class, I added an anchor tag inside a paragraph.
+
+After that, in the **proceed-to-payment** class, I added a paragraph.
+
+In the **cancel** class, I added a paragraph.
+
+And lastly, in the **attribution** class, I added 'Challenge by' and 'Coded by' with anchor tags. 
+
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+       - Semantic HTML5 markup
+       - CSS custom properties
+       - Flexbox
+       - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned many new concepts and use it in this project like: 
 
-To see how you can add code snippets, see below:
+       - CSS Variables
+       - Background-repeat 
+       - Background-size
+       - Uses of rem and em
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+   #### 1) CSS Variables 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+       These are some particular values, which we can reuse throughout this CSS file and the benefit is that when the file is so long and if you want to change some colors then, you have to go all over the file, check and change. But using CSS Variables, we can change the color in the root and the specific color would change in that section or div or etc.
+  
+   ```CSS
+   :root {
+     --body-bg-color: white:
+   }
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+   body {
+     background-color: var(--body-bg-color);
+   }
+   ```
+ #### 2) Background-repeat 
+
+       A background-repeat sets how the background image repeated. It can be repeated along horizontal(x-axis), vertically(y-axis) or do not repeat according to the value, we provide.
+   
+   ```CSS
+   .main {
+     background-image: url('./images/illustration-hero.svg');
+     background-repeat: no-repeat;
+   }
+   ```
+ #### 3) Background-size
+
+      This property sets the element's background image. The image can be cover the whole space, spread upto a given percentage area.
+
+    ```CSS
+   .music-annual-plan-and-money .image {
+     background-image: url('./images/icon-music.svg');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+   }
+   ```
+ #### 4) Use of rem and em 
+
+     These are relative units, which changes according to the screen resolution, that makes the program fits according to that resolution. 
+     
+     As rem is based upon the font-size value of the root element, which is the <html> element. And if the <html> element doesn’t have a specified font-size, the browser default value of 16px is used.
+
+    ````CSS
+     .html {
+       font-size: 30px;
+    }
+    
+    .parent {
+        font-size: 2rem;
+        /* 30px * 2 = 60px */
+    }
+
+    html
+    <div class="parent">
+        This is parent
+    </div>
+    ```
+
+     And em unit allows to set the font size of an element relative to the font size of its parent. When the size of the parent element changes, the size of the child changes automatically.
+
+     ```CSS
+     .parent {
+        font-size: 20px;
+    }
+  
+    .child {
+        margin: 1.5em;
+        /* 20px * 1.5 = 30px */
+    }
+    
+    html
+    <div class="parent">
+        This is parent
+        <div class="child">
+            This is Child in em unit system
+        </div>
+    </div>
+    ```
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+     I want to focus on the responsiveness of the website and make use of SCSS concepts in this project in future.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+     - [Background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) - This concept really helped to fit in the image in a div with value of width and height are 100%, with makes it to cover the full div. I really like this and use it in future projects, whenever required. 
+     - [Difference between em and rem units in CSS](https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/) - This is an amazing article which helped me finally understand the difference between rem and em. I'd recommend it to anyone still learning this concept.
+     - [CSS Units](https://www.w3schools.com/cssref/css_units.asp) - This is a very good article on CSS Units, which helped me to understand the various units of CSS.
+ 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+     - Frontend Mentor - [@shekhar10feb](https://www.frontendmentor.io/profile/shekhar10feb)
+     - Twitter - [@MontygSharma](https://twitter.com/MontygSharma)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
