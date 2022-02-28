@@ -128,7 +128,7 @@ p {
   align-items: flex-start;
   flex-direction: column;
   padding: 2%;
-  margin-left: 3%;
+  margin-left: 0.5rem;
 }
 
 .annual-plan-and-money .annual-plan {
