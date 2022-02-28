@@ -27,12 +27,12 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--body-bg-color);
-  margin: 1vmin auto;
+  /* margin: 1vmin auto; */
 }
 
 /* Contanier  */
 .container {
-  width: 90vw;
+  width: 100vw;
   min-height: 47vmax;
   display: flex;
   justify-content: center;
@@ -42,15 +42,15 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   font-family: "Red Hat Display", sans-serif;
-  padding: 1rem;
+  padding: 6rem 0.5rem;
 }
 
 /* Main Heading */
 .heading {
   color: var(--heading-color);
   font-weight: 900;
-  font-size: 1.7em;
-  margin-top: 12.4rem;
+  font-size: 1.6rem;
+  margin-top: 17rem;
 }
 
 /* Paragraph */
@@ -61,7 +61,7 @@ p {
 
 /* Main Div  */
 .main {
-  width: 26rem;
+  width: 28rem;
   background-color: var(--main-bg-color);
   background-image: url('./images/illustration-hero.svg');
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ p {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  border-radius: 0.9em;
+  border-radius: 1.4em;
 }
 
 /* Heading Description */
@@ -79,6 +79,7 @@ p {
   width: 80%;
   text-align: center;
   font-weight: 500;
+  line-height: 1.7;
   color: hsl(224, 23%, 55%);
 }
 
@@ -90,8 +91,10 @@ p {
   min-height: 90%;
   align-items: center;
   background-color: var(--premium-plan-bg-color);
-  border-radius: 5px;
-  margin: 4% 0;
+  border-radius: 0.6rem;
+  margin: 4% 0 6% 0;
+  padding: 2%;
+  /* border: 1px solid red; */
 }
 
 .premium-plan .music-annual-plan-money-and-change {
@@ -99,21 +102,23 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
+  padding: 4%;
 }
 
 .music-annual-plan-money-and-change .music-annual-plan-and-money{
   width: 65%;
+  min-height: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .music-annual-plan-and-money .image {
   width: 30%;
-  min-height: 100%;
+  /* min-height: 100%; */
   background-image: url('./images/icon-music.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  /* padding: 1%; */
 }
 
 .music-annual-plan-and-money .annual-plan-and-money {
@@ -122,11 +127,12 @@ p {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 2% 3%;
+  padding: 2%;
+  margin-left: 5%;
 }
 
 .annual-plan-and-money .annual-plan {
-  font-weight: 700;
+  font-weight: 900;
   color: var(--annual-plan-text-color);
 } 
 
@@ -159,7 +165,8 @@ p {
   border-radius: 10px;
   padding: 3% 3% 4%;
   margin: 3%;
-  box-shadow: 0px 0.06rem 0.5rem 0.06rem hsl(224, 23%, 55%);
+  box-shadow: 0.0em 0.8rem 2rem  hsl(224, 23%, 55%);
+  /* box-shadow: 1px 12px 12px 1px rgba(0, 0, 255, .2); */
 }
 
 .proceed-to-payment p {
@@ -177,14 +184,14 @@ p {
 .cancel {
   text-align: center;
   width: 80%;
-  margin: 3%;
-  margin-bottom: 7%;
+  margin: 5%;
+  margin-bottom: 11%;
 }
 
 .cancel p {
   text-align: center;
   color: var(--div-cancel-paragraph-text-color);
-  font-weight: 700;
+  font-weight: 900;
   text-decoration: none;
 }
 
