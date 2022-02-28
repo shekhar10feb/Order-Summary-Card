@@ -94,7 +94,6 @@ p {
   border-radius: 0.6rem;
   margin: 4% 0 6% 0;
   padding: 2%;
-  /* border: 1px solid red; */
 }
 
 .premium-plan .music-annual-plan-money-and-change {
@@ -106,23 +105,21 @@ p {
 }
 
 .music-annual-plan-money-and-change .music-annual-plan-and-money{
-  width: 65%;
+  width: 72%;
   min-height: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .music-annual-plan-and-money .image {
-  width: 30%;
-  /* min-height: 100%; */
+  width: 28%;
   background-image: url('./images/icon-music.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* padding: 1%; */
 }
 
 .music-annual-plan-and-money .annual-plan-and-money {
-  width: 70%;
+  width: 72%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
